@@ -1,0 +1,29 @@
+{
+  "name": "iso-10383",
+  "version": "1.0.0",
+  "description": "ISO-10383",
+  "main": "index.js",
+  "scripts": {
+    "build": "node ./scripts/build.js",
+    "lint": "eslint --ext .js .",
+    "test": "eslint --ext .js . && mocha ./test/test.js"
+  },
+  "keywords": [
+    "ISO-10383",
+    "Market Identification Code",
+    "MIC",
+    "Stock Exchange Code"
+  ],
+  "author": "Juan Garcia",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.4.0",
+    "eslint-config-airbnb-base": "^5.0.3",
+    "eslint-plugin-import": "^1.14.0",
+    "mocha": "^3.0.2",
+    "request": "^2.74.0",
+    "request-promise-native": "^1.0.3",
+    "should": "^11.1.0",
+    "xlsx": "^0.8.0"
+  }
+}
