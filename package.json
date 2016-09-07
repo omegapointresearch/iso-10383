@@ -3,6 +3,10 @@
   "version": "1.0.1",
   "description": "ISO-10383",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/omegapointresearch/iso-10383"
+  },
   "scripts": {
     "build": "node ./scripts/build.js",
     "lint": "eslint --ext .js .",
